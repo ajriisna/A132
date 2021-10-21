@@ -157,23 +157,23 @@ input[type="checkbox"]:checked ~ div {
   }
   
   .contents2 {
-    height: 850px;
+    height: fit-content;
     color: #475c7A;
   } 
   .contents3 {
-    height: 650px;
+    height: fit-content;
     color: #475c7A;
   } 
   .contents4 {
-    height: 700px;
+    height: fit-content;
     color: #475c7A;
   }
   .contents5 {
-    height: 400px;
+    height: fit-content;
     color: #475c7A;
   }
   .contents6 {
-    height: 400px;
+    height: fit-content;
     color: #475c7A;
   }
   

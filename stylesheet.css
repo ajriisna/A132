@@ -68,8 +68,8 @@ body {
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 80px;
-  width: 80px;
+  min-height: 200px;
+  width: 100%;
   z-index: 100;
 }
 
@@ -151,28 +151,29 @@ input[type="checkbox"]:checked ~ div {
   }
   
   .contents-item p {
-    font-size: 18px;
+    font-size: 100%;
+	  min-height:fit-content;
     margin-top: 30px;
   }
   
   .contents2 {
-    height: 850px;
+    height: 1200px;
     color: #475c7A;
   } 
   .contents3 {
-    height: 650px;
+    height: 500px;
     color: #475c7A;
   } 
   .contents4 {
-    height: 700px;
+    height: 800px;
     color: #475c7A;
   }
   .contents5 {
-    height: 400px;
+    height: 500px;
     color: #475c7A;
   }
   .contents6 {
-    height: 400px;
+    height: 500px;
     color: #475c7A;
   }
   

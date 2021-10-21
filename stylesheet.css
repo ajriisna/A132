@@ -2,8 +2,8 @@ html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 5;
 }
 body {
     font-family: monospace;
@@ -19,17 +19,30 @@ body {
     height: 150px;
   }
   
-  .header-logo {
-    float: left;
-    font-size: 36px;
-    padding: 50px 50px;
-    font-family: Arial Black
+  .header-logo{
+    float: right;
+    padding: 5px 5px;
+    width: 160px;
   }
   
-  .header-list li {
-    float: left;
-    padding: 65px 20px;
-    font-size: 20px;
+  .header-list ul {
+	text-align: right;
+    font-size: 17px;
+	list-style-type: none;
+    margin: 10px -250px;
+    padding: 70px;
+    overflow: hidden;
+  }
+  .header-list li{
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+  }
+  .header-list li a{
+	display: block;
+    text-align: right;
+    padding: 0px;
+    text-decoration: none;
   }
   
   .main {
@@ -52,7 +65,7 @@ body {
   }
   
   .contents {
-    height: 400px;
+    height: 620px;
     margin-top: 150px;
     color: #475c7A;
   }
@@ -76,11 +89,11 @@ body {
   }
   
   .contents2 {
-    height: 1000px;
+    height: 850px;
     color: #475c7A;
   } 
   .contents3 {
-    height: 400px;
+    height: 650px;
     color: #475c7A;
   } 
   .contents4 {
@@ -114,7 +127,7 @@ body {
     color: #889eab;
   }
   
-  .footer {
+  footer {
     background-color: rgba(48, 95, 114, 1.00);
     padding-top: 10px;
     padding-bottom: 5px;

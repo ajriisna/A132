@@ -161,22 +161,22 @@ input[type="checkbox"]:checked ~ div {
   
   .contents2 {
     height: 100%;
-	  min-height: max-content;
+	  min-height: fit-content;
     color: #475c7A;
   } 
   .contents3 {
     height: 100%;
-	  min-height: max-content;
+	  min-height: fit-content;
     color: #475c7A;
   } 
   .contents4 {
     height: 100%;
-	  min-height: max-content;
+	  min-height: fit-content;
     color: #475c7A;
   }
   .contents5 {
     height: 100%;
-	  min-height: max-content;
+	  min-height: fit-contentt;
     color: #475c7A;
   }
   .contents6 {

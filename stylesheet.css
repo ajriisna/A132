@@ -167,15 +167,18 @@ input[type="checkbox"]:checked ~ div {
     color: #475c7A;
   } 
   .contents4 {
-    height: 700px;
+    height: 100%;
+	  min-height: max-content;
     color: #475c7A;
   }
   .contents5 {
-    height: 500px;
+    height: 100%;
+	  min-height: max-content;
     color: #475c7A;
   }
   .contents6 {
-    height: 500px;
+    height: 100%;
+	  min-height: max-content;
     color: #475c7A;
   }
   

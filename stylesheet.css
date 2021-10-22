@@ -132,8 +132,7 @@ input[type="checkbox"]:checked ~ div {
   }
   
   .contents {
-    height: 100%;
-	  min-height: max-content;
+    height: 620px;
     margin-top: 150px;
     color: #475c7A;
   }

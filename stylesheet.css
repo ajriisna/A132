@@ -153,6 +153,11 @@ input[type="checkbox"]:checked ~ div {
     min-width: none;
   }
   
+ .contents-item {
+    float: left;
+    margin-right: 53px;
+  }
+  
   .contents-item p {
     font-size: 100%;
 	  min-height:fit-content;
@@ -160,28 +165,23 @@ input[type="checkbox"]:checked ~ div {
   }
   
   .contents2 {
-    height: 100%;
-	  min-height: fit-content;
+    height: 1000px;
     color: #475c7A;
   } 
   .contents3 {
-    height: 100%;
-	  min-height: fit-content;
+    height: 700px;
     color: #475c7A;
   } 
   .contents4 {
-    height: 100%;
-	  min-height: fit-content;
+    height: 700px;
     color: #475c7A;
   }
   .contents5 {
-    height: 100%;
-	  min-height: fit-contentt;
+    height: 500px;
     color: #475c7A;
   }
   .contents6 {
-    height: 100%;
-	  min-height: max-content;
+    height: 500px;
     color: #475c7A;
   }
   

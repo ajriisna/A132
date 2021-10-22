@@ -153,7 +153,6 @@ input[type="checkbox"]:checked ~ div {
  .contents-item {
     float: left;
     margin-right: 53px;
-	 width: 620px;
   }
   
   .contents-item p {
